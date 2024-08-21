@@ -9,4 +9,4 @@ echo "Hello there, ${name}"
 echo "Hey ${1}"
 
 # ${@} is a catch-all for params, instead specifying each param separately
-echo "This is yelling at everyone, that includes: {$@}"
+echo "This is yelling at everyone, that includes: $@"
